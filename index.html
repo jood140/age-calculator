@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joud Al-Mehmadi | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo" id="logo">
+        Joud<span>.</span>
+    </div>
+
+    <nav>
+
+        <a href="#home" id="nav-home">Home</a>
+        <a href="#about" id="nav-about">About</a>
+        <a href="#projects" id="nav-projects">Projects</a>
+        <a href="#skills" id="nav-skills">Skills</a>
+        <a href="#certificates" id="nav-certificates">Certificates</a>
+        <a href="#contact" id="nav-contact">Contact</a>
+
+    </nav>
+
+    <div class="language-switcher">
+        <button id="ar-btn">🇸🇦</button>
+        <button id="en-btn">🇺🇸</button>
+    </div>
+
+</header>
+
+<section class="hero" id="home">
+
+    <div class="left">
+
+        <h3 id="hero-greeting">Hello, I'm</h3>
+
+        <h1 id="hero-name">
+            Joud Al-Mehmadi
+        </h1>
+
+       <h2 id="hero-job">
+    <span id="typing"></span>
+</h2>
+        <p id="hero-description">
+            Building modern websites with a focus on clean design and great user experience.
+        </p>
+
+        <div class="buttons">
+
+            <a href="#projects" class="btn1" id="btn-projects">
+                View Projects
+            </a>
+
+            <a href="#contact" class="btn2" id="btn-contact">
+                Contact Me
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="right">
+
+        <img src="images/profile.png" alt="Profile">
+
+    </div>
+
+</section>
+
+<section class="about" id="about">
+
+    <div class="about-title">
+
+        <h2 class="section-title" id="about-title">
+            About Me
+        </h2>
+
+    </div>
+
+    <div class="about-content">
+
+        <div class="about-text">
+
+            <h3 id="about-subtitle">
+                Who Am I?
+            </h3>
+
+            <p id="about-text">
+                أنا جود المحمادي، متخصصة في برمجة وتطوير الويب، أهتم بتطوير مواقع ويب حديثة تجمع بين التصميم الجذاب والأداء المتميز. أسعى باستمرار إلى تطوير مهاراتي وتنفيذ مشاريع تعكس شغفي بالتقنية وحرصي على تقديم تجارب استخدام مميزة.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+<section class="projects" id="projects">
+
+    <h2 class="section-title" id="projects-title">Projects</h2>
+
+    <div class="project-container">
+
+        <div class="project-card">
+            <img src="images/project1.jpg" alt="Project">
+
+            <h3 id="project1-title">Personal Portfolio</h3>
+
+<p id="project1-desc">
+A professional portfolio website designed to showcase my skills, projects, certificates, and resume through a modern and responsive interface.
+</p>
+
+<div class="tech">
+    <span>HTML5</span>
+    <span>CSS3</span>
+    <span>JavaScript</span>
+</div>
+
+            <div class="project-buttons">
+                <a href="#">Live Demo</a>
+                <a href="#">GitHub</a>
+            </div>
+        </div>
+
+        <div class="project-card">
+           <video controls class="project-video">
+    <source src="videos/emotiview.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+            <h3 id="project2-title">EmotiView</h3>
+
+<p id="project2-desc">
+An AI-powered smart mirror that analyzes facial expressions to detect emotions and displays the results through a Flutter application connected to an AI backend, providing an interactive user experience.
+</p>
+
+<div class="tech">
+    <span>Flutter</span>
+    <span>dart</span>
+    <span>Firebase</span>
+    <span>REST API</span>
+</div>
+
+            <div class="project-buttons">
+                <a href="#">Live Demo</a>
+                <a href="#">GitHub</a>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <img src="images/project3.jpg" alt="Project">
+
+           <h3 id="project3-title">Age Calculator Website</h3>
+
+<p id="project3-desc">
+A web application that calculates the user's exact age based on the selected birth date and calendar type. The system stores every calculation in a MySQL database using PHP and provides a history page to view previous records. Built with HTML, CSS, JavaScript, PHP, and MySQL.
+</p>
+
+<div class="tech">
+    <span>HTML5</span>
+    <span>CSS3</span>
+    <span>PHP</span>
+    <span>MySQL</span>
+    <span>JavaScript</span>
+    <span>XAMPP</span>
+</div>
+            <div class="project-buttons">
+                <a href="#">Live Demo</a>
+                <a href="#">GitHub</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="skills" id="skills">
+
+    <h2 class="section-title" id="skills-title">Skills</h2>
+
+    <div class="skills-grid">
+
+        <div class="skill-card">
+            <i class="fa-brands fa-html5"></i>
+            <h3>HTML5</h3>
+        </div>
+
+        <div class="skill-card">
+            <i class="fa-brands fa-css3-alt"></i>
+            <h3>CSS3</h3>
+        </div>
+
+        <div class="skill-card">
+            <i class="fa-brands fa-js"></i>
+            <h3>JavaScript</h3>
+        </div>
+
+        <div class="skill-card">
+            <i class="fa-brands fa-php"></i>
+            <h3>PHP</h3>
+        </div>
+
+        <div class="skill-card">
+            <i class="fa-solid fa-database"></i>
+            <h3>MySQL</h3>
+        </div>
+
+        <div class="skill-card">
+            <i class="fa-brands fa-github"></i>
+            <h3>GitHub</h3>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="certificates" id="certificates">
+
+    <h2 class="section-title" id="certificates-title">Certificates</h2>
+
+    <div class="certificate-grid">
+
+        <div class="certificate-card">
+
+    <img src="images/ibm.png" alt="IBM SkillsBuild">
+
+    <h3 id="certificate1-title">IBM SkillsBuild</h3>
+
+    <p id="certificate1-desc">Guided Learning Experience – Using Generative AI for Software Development</p>
+
+    <span class="date">July 2025</span>
+
+    <a href="images/ibm-certificate.pdf" target="_blank" class="certificate-btn" id="certificate2-btn">
+    View Certificate
+</a>
+
+</div>
+
+<div class="certificate-card">
+
+    <img src="images/cisco.png" alt="Cisco Networking Academy">
+
+    <h3 id="certificate2-title">Cisco Networking Academy</h3>
+
+    <p id="certificate2-desc">ITE 7.01 Arabic</p>
+
+    <span class="date">December 2024</span>
+
+   <a href="images/cisco-certificate.pdf" target="_blank" class="certificate-btn">
+    View Certificate
+</a>
+
+</div>
+    </div>
+
+</section>
+
+<section class="contact" id="contact">
+
+    <h2 class="section-title" id="contact-title">Contact</h2>
+
+    <div class="about-content">
+
+        <div class="about-text">
+
+            <h3>Email</h3>
+
+            <p>
+                joudalmehmadi7@hotmail.com
+            </p>
+
+            <br>
+            <h3>phone number</h3>
+
+            <p>
+                966556035710+
+            </p>
+
+            <br>
+            <h3>LinkedIn</h3>
+
+            <p>
+                linkedin.com/in/joud
+            </p>
+
+            <br>
+
+            <h3>GitHub</h3>
+
+            <p>
+                github.com/joud
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+<section class="highlights">
+
+    <div class="highlight-card">
+        <i class="fa-solid fa-code"></i>
+        <h3>Web Development</h3>
+        <p>Building modern and responsive websites.</p>
+    </div>
+
+    <div class="highlight-card">
+        <i class="fa-solid fa-palette"></i>
+        <h3>Creative Design</h3>
+        <p>Clean UI with a great user experience.</p>
+    </div>
+
+    <div class="highlight-card">
+        <i class="fa-solid fa-rocket"></i>
+        <h3>Continuous Learning</h3>
+        <p>Always improving my technical skills.</p>
+    </div>
+
+</section>
+
+<footer>
+
+    <p>© 2026 Joud Al-Mehmadi. All Rights Reserved.</p>
+
+</footer>
+<button id="topBtn">
+    ↑
+</button>
+<script src="script.js"></script>
+</body>
+</html>
