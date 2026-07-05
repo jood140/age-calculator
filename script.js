@@ -47,7 +47,17 @@ document.getElementById("project2-desc").textContent =
 document.getElementById("project3-desc").textContent =
 "تطبيق ويب لحساب العمر بدقة اعتمادًا على تاريخ الميلاد، مع حفظ جميع عمليات الحساب في قاعدة بيانات MySQL باستخدام PHP، بالإضافة إلى عرض سجل العمليات السابقة.";
 
+document.getElementById("project1-title").textContent = "الموقع الشخصي";
+
+document.getElementById("project1-desc").textContent =
+"موقع شخصي احترافي يعرض مهاراتي التقنية، وأبرز مشاريعي، وشهاداتي، وسيرتي الذاتية، بتصميم عصري ومتجاوب يوفر تجربة استخدام سهلة ويعكس خبرتي في تطوير الويب.";
+
 }else{
+
+    document.getElementById("project1-title").textContent = "Personal Portfolio";
+
+document.getElementById("project1-desc").textContent =
+"A professional portfolio website showcasing my technical skills, featured projects, certificates, and resume through a modern, responsive, and user-friendly design.";
 
 document.getElementById("project3-title").textContent =
 "Age Calculator Website";
